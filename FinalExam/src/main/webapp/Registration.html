@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>User Registration</title>
+</head>
+<body>
+<header>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="Registration.html">Registration</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html">Diablo IV</a></li>
+                        <li><a href="index2.html">Final Fantasy XVI</a></li>
+                    </ul>
+                </nav>
+                </header>
+    <h2>User Registration</h2>
+    <form action="RegistrationServlet" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+        
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
